@@ -22,7 +22,8 @@ export class AppServiceService {
   }
 
   getTeacherData(){
-    return this.http.get(`/${this.ROOT_URL}/listTeachers`)
+    return this.http.get('/api/listTeachers')
+    //return this.http.get(`/${this.ROOT_URL}/listTeachers`)
   }
 
   getStudentData(){

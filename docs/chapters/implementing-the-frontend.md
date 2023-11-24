@@ -25,7 +25,7 @@ In the constructor a private `HttpClient` instance called `http` added and the `
 
 ```typescript
 constructor(private http: HttpClient) {
-    this.ROOT_URL = 'http://localhost:8080'
+    this.ROOT_URL = 'http://localhost:8080' // test
 }
 ```
 
