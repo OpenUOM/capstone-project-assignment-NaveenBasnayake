@@ -34,13 +34,13 @@ export class TeacherTableComponent implements OnInit {
     this.router.navigate(['editTeacher'], navigationExtras)
   }
 
-  /*initializeDB(){
+  initializeDB(){
     this.service.initializeDB().subscribe((response) => {
       console.log('DB is Initialized')
     }, (error) => {
       console.log('ERROR - ', error)
     })
-  }*/
+  }
 
   getTeacherData() {
     this.selected = 'Teachers';
